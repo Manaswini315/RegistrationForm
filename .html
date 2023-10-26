@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>REGISTRATION FORM</title>
+        <link href="styles.css" rel="stylesheet"/>
+    </head>
+    </body>
+        <h1>REGISTRATION FORM</h1>
+        <p>please fill the form with the required information</p>
+        <form method="post" section="https://www.goggle.com">
+        <fieldset>
+            <label for="first-name">Enter your first name:
+                <input id="first-name" name="first-name" type="text" required/></label>
+            <label for="last-name">Enter your last name:
+                <input id="last-name" name="last-name" type="text" required/></label>
+            <label for="email">Enter your e mail id:
+                <input id="email" name="email" type="text" required/></label>
+            <label for=" new-password">create a new-password:
+                <input id="new-password" name="new-password" type="password" pattern="[a-Z0-5]{8}"required></label>
+        </fieldset>
+       <fieldset>
+            <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline"/>personal-account</label>
+            <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline"/>business-account</label>
+            <label for="savings-account"><input id="savings-account" type="radio" name="account-type" class="inline"/>savings-account</label>
+           <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" name="account-type" class="inline"/>I accept the<a href="https://www.google.com">Terms & conditions</a></label>
+         </fieldset>
+        <fieldset>
+            <label for="profile picture">upload a profile-picture:<input id="profile-picture" type="file" name="file"/></label>
+            <label for="age">input your age(years):<input id="age" type="number" name="age" min="13" max="120"/></label>
+            <label for="refferer">where you hear about us? 
+                <select id="refferer" name="referrer">
+                    <option value="">(selct one)</option>
+                    <option value="1">News Updates</option>
+                    <option value="2">youtube channel</option>
+                    <option value="3">friends</option>
+                </select>
+                </label>
+                <label for="bio">provide a bio
+                    <textarea id="bio" name="bio" rows="3" cols="30" placeholder=" i like coding"></textarea>
+                    </label>
+                    </fieldset>
+                    <input type="submit" value="submit"/>
+                    </form>
+                    </body>
+                    </html>
